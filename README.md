@@ -61,7 +61,11 @@ create and open `.env` then edit it with your settings. You will need:
     $ npm start
 
 ## Simple build for production
-
+    according to https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html
+    first to create eb env
+    eg:
+    $ eb init --platform node.js --region us-east-2
+    $ eb create --sample node-express-env
     $ eb deploy
     
 ## Test with PostMan
