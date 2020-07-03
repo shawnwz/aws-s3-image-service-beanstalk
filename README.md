@@ -2,6 +2,7 @@
 this is a nodejs project comply with aws beanstalk protocal.
 A backend service to upload image to aws s3 and resize image on the fly.
 you can test it by postman.
+you need AWS credential with permission to access s3, EC2, beanstalk writting and so on...
 
 ---
 ## Requirements
